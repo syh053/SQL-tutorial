@@ -15,3 +15,11 @@ CREATE TABLE `drinks` (
   PRIMARY KEY (`id`)
 );
 ```
+
+```REATE TABLE `drinks` (
+  `id`    int(11)      unsigned NOT NULL AUTO_INCREMENT,
+  `name`  varchar(20)           NOT NULL,
+  `price` int(11)      unsigned NOT NULL,
+  `cost`  int(11)      unsigned NOT NULL,
+  PRIMARY KEY (`id`)
+);
