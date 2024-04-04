@@ -5,7 +5,6 @@
 
 
 <h4> 建立資料庫並設定編碼 </h4>
-
 ```
 CREATE DATABASE drink_store
 CHARACTER SET utf8mb4
