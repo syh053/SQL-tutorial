@@ -68,6 +68,6 @@ VALUES
 ('百香紅茶', 45, 10);
 ```
 
-<p><img src="https://example.com/my-image.pngLinks to an external site.](https://github.com/syh053/SQL-tutorial/blob/main/photo/%E6%99%82%E9%96%93%E6%A0%BC%E5%BC%8F.jpg" alt="MyImage" />時間格式說明</p>
+<p><img src="https://github.com/syh053/SQL-tutorial/blob/main/photo/%E6%99%82%E9%96%93%E6%A0%BC%E5%BC%8F.jpg" alt="MyImage" />時間格式說明</p>
 
 
