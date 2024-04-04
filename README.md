@@ -5,6 +5,7 @@
 
 
 <h4> 建立資料庫並設定編碼 </h4>
+
 ```
 CREATE DATABASE drink_store
 CHARACTER SET utf8mb4
@@ -15,6 +16,7 @@ COLLATE utf8mb4_unicode_ci;
 
 
 <h4> 產生 TABLE </h4>
+
 ```
 CREATE TABLE `drinks` (
   `id`    int(11)      unsigned NOT NULL AUTO_INCREMENT,
