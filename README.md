@@ -5,6 +5,7 @@
 
 
 <h4> 建立資料庫並設定編碼 </h4>
+
 ```
 CREATE DATABASE drink_store
 CHARACTER SET utf8mb4
@@ -25,3 +26,14 @@ CREATE TABLE `drinks` (
   PRIMARY KEY (`id`)
 );
 ```
+
+<h4> 查詢資料表結構的兩種方式 </h4>
+
+```
+EXPLAIN [table_name];
+```
+
+```
+SHOW FULL FIELDS FROM [table_name];
+```
+
