@@ -37,3 +37,20 @@ EXPLAIN [table_name];
 SHOW FULL FIELDS FROM [table_name];
 ```
 
+<h4> 刪除資料表 </h4>
+
+```
+DROP TABLE [table_name];
+```
+
+<h4> 查詢當前的資料庫 </h4>
+
+```
+SELECT DATABASE();
+```
+
+<h4> 切換資料庫 </h4>
+
+```
+USE [db_name];
+```
