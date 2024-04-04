@@ -5,6 +5,8 @@
 
 
 <h2> 產生 TABLE </h2>
+
+```
 CREATE TABLE `drinks` (
   `id`    int(11)      unsigned NOT NULL AUTO_INCREMENT,
   `name`  varchar(20)           NOT NULL,
@@ -12,3 +14,4 @@ CREATE TABLE `drinks` (
   `cost`  int(11)      unsigned NOT NULL,
   PRIMARY KEY (`id`)
 );
+```
