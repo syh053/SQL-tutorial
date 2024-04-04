@@ -4,7 +4,7 @@
 <h3><a href="https://wtools.io/generate-sql-create-table#google_vignette" target="_blank"> SQL 指令產生器 </a></h3>
 
 
-<h2> 產生 TABLE </h2>
+<h4> 產生 TABLE </h4>
 
 ```
 CREATE TABLE `drinks` (
