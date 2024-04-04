@@ -4,8 +4,17 @@
 <h3><a href="https://wtools.io/generate-sql-create-table#google_vignette" target="_blank"> SQL 指令產生器 </a></h3>
 
 
-<h4> 產生 TABLE </h4>
+<h4> 建立資料庫並設定編碼 </h4>
+```
+CREATE DATABASE drink_store
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+```
 
+
+
+
+<h4> 產生 TABLE </h4>
 ```
 CREATE TABLE `drinks` (
   `id`    int(11)      unsigned NOT NULL AUTO_INCREMENT,
@@ -15,11 +24,3 @@ CREATE TABLE `drinks` (
   PRIMARY KEY (`id`)
 );
 ```
-
-```REATE TABLE `drinks` (
-  `id`    int(11)      unsigned NOT NULL AUTO_INCREMENT,
-  `name`  varchar(20)           NOT NULL,
-  `price` int(11)      unsigned NOT NULL,
-  `cost`  int(11)      unsigned NOT NULL,
-  PRIMARY KEY (`id`)
-);
