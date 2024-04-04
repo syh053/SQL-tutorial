@@ -57,3 +57,11 @@ USE [db_name];
 
 <h2> DML 操作資料 </h2>
 
+
+
+<h4> 新增資料 (INSERT) </h4>
+
+```
+INSERT INTO `drinks` (`name`, `price`, `cost`)
+VALUES ('阿華田', 65, 20);
+```
